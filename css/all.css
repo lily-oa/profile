@@ -1,5 +1,50 @@
 @charset "UTF-8";
 /* 顏色 */
+/* 單位 */
+.mb-1 {
+  margin-bottom: 8px;
+}
+
+.mt-1 {
+  margin-top: 8px;
+}
+
+.pb-1 {
+  padding-bottom: 8px;
+}
+
+.pb-2 {
+  padding-bottom: 16px;
+}
+
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.mb-3 {
+  margin-bottom: 24px;
+}
+
+.mr-3 {
+  margin-right: 24px;
+}
+
+.pt-3 {
+  padding-top: 24px;
+}
+
+.mb-6 {
+  margin-bottom: 48px;
+}
+
+.mt-6 {
+  margin-top: 48px;
+}
+
+.mb-9 {
+  margin-bottom: 72px;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -71,51 +116,6 @@ img {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
-}
-
-/* 單位 */
-.mb-1 {
-  margin-bottom: 8px;
-}
-
-.mt-1 {
-  margin-top: 8px;
-}
-
-.pb-1 {
-  padding-bottom: 8px;
-}
-
-.pb-2 {
-  padding-bottom: 16px;
-}
-
-.mb-2 {
-  margin-bottom: 16px;
-}
-
-.mb-3 {
-  margin-bottom: 24px;
-}
-
-.mr-3 {
-  margin-right: 24px;
-}
-
-.pt-3 {
-  padding-top: 24px;
-}
-
-.mb-6 {
-  margin-bottom: 48px;
-}
-
-.mt-6 {
-  margin-top: 48px;
-}
-
-.mb-9 {
-  margin-bottom: 72px;
 }
 
 .container {
@@ -200,6 +200,7 @@ body {
   background: #817e7e;
   color: #415165;
 }
+
 .footer .pic {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -207,7 +208,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 5px 0;
 }
-.footer .pic a:hover {
-  border-bottom: 5px solid lightgreen;
+.footer .pic img:hover {
+  border-bottom: 3px solid lightgreen;
 }
