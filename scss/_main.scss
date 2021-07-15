@@ -50,15 +50,14 @@
 }
 
 /* 第三塊 work*/
-.work {
-  .work-content {
+
+.work .work-content {
     border-left: 1px solid $lightGray-color;
     padding-left: 24px;
     margin-left: 16px;
     p {
       font-size: 24px;
     }
-  }
 }
 
 /* 第四塊 footer */
@@ -76,8 +75,8 @@
   }
 }
 
-.footer {
-  .pic {
+
+.footer .pic {
     display: flex;
     justify-content: center;
     padding: 5px 0;
@@ -85,4 +84,3 @@
         border-bottom: 3px solid lightgreen;
       }
   }
-}
